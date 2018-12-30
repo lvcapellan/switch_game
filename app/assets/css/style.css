@@ -1,0 +1,265 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*********/
+/*CLASSES*/
+/*********/
+.main_box {
+	border-style: solid;
+}
+
+.rules_box {
+	text-align: center;
+	border-style: double;
+	grid-column-start: 1;
+	grid-column-end: 17;
+}
+
+.switch_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	border-style: inset;
+	background-color: red;
+}
+
+.switch_button {
+	height: 100%;
+	width: 100%;
+	background-color: red;
+}
+
+.green-text {
+	color: green;
+}
+
+.red-text {
+	color: red;
+}
+
+/*****/
+/*IDs*/
+/*****/
+/*MAIN*/
+#main_grid {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+/*TOP*/
+#label_top {
+	grid-column-start: 1;
+	grid-column-end: 17;
+	text-align: center;
+}
+
+#top_box {
+	grid-column-start: 1;
+	grid-column-end: 17;
+}
+
+/*MIDDLE*/
+#label_middle_1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: center;
+	border-right: 1px solid red;
+}
+
+#label_middle_2 {
+	grid-column-start: 5;
+	grid-column-end: 13;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_middle_3 {
+	grid-column-start: 13;
+	grid-column-end: 17;
+	text-align: center;
+	border-left: 1px solid red;
+}
+
+#middle_box_1 {
+	grid-column-start: 1;
+	grid-column-end: 9;
+}
+
+#middle_box_2 {
+	grid-column-start: 9;
+	grid-column-end: 17;
+}
+
+/*BOTTOM*/
+#label_bottom_1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center;
+	border-right: 1px solid red;
+}
+
+#label_bottom_2 {
+	grid-column-start: 3;
+	grid-column-end: 7;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_bottom_3 {
+	grid-column-start: 7;
+	grid-column-end: 11;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_bottom_4 {
+	grid-column-start: 11;
+	grid-column-end: 15;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_bottom_5 {
+	grid-column-start: 15;
+	grid-column-end: 17;
+	text-align: center;
+	border-left: 1px solid red;
+}
+
+#bottom_box_1 {
+	grid-column-start: 1; 
+	grid-column-end: 5;
+}
+
+#bottom_box_2 {
+	grid-column-start: 5; 
+	grid-column-end: 9;
+}
+
+#bottom_box_3 {
+	grid-column-start: 9; 
+	grid-column-end: 13;
+}
+
+#bottom_box_4 {
+	grid-column-start: 13; 
+	grid-column-end: 17;
+}
+
+/*BUTTON*/
+#label_switch_1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	border-right: 1px solid red;
+}
+
+#label_switch_2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_3 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_4 {
+	grid-column-start: 6;
+	grid-column-end: 8;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_5 {
+	grid-column-start: 8;
+	grid-column-end: 10;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_6 {
+	grid-column-start: 10;
+	grid-column-end: 12;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_7 {
+	grid-column-start: 12;
+	grid-column-end: 14;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_8 {
+	grid-column-start: 14;
+	grid-column-end: 16;
+	text-align: center;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#label_switch_9 {
+	grid-column-start: 16;
+	grid-column-end: 17;
+	text-align: center;
+	border-left: 1px solid red;
+}
+
+#button_box_1 {
+	grid-column-start: 1; 
+	grid-column-end: 3;
+}
+
+#button_box_2 {
+	grid-column-start: 3; 
+	grid-column-end: 5;
+}
+
+#button_box_3 {
+	grid-column-start: 5; 
+	grid-column-end: 7;
+}
+
+#button_box_4 {
+	grid-column-start: 7; 
+	grid-column-end: 9;
+}
+
+#button_box_5 {
+	grid-column-start: 9; 
+	grid-column-end: 11;
+}
+
+#button_box_6 {
+	grid-column-start: 11; 
+	grid-column-end: 13;
+}
+
+#button_box_7 {
+	grid-column-start: 13; 
+	grid-column-end: 15;
+}
+
+#button_box_8 {
+	grid-column-start: 15;
+	grid-column-end: 17;
+}
